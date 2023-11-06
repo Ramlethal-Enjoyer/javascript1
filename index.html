@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webfejlesztés gyakorlása</title>
+</head>
+<body>
+
+<script>
+    // Változók és konstansok
+    var Marci = "Marci";
+    var Zsombor = "Zsombor";
+    console.log(Marci);
+    console.log(Zsombor);
+
+    //const PI = 3.14159;
+   // console.log(PI);
+
+    // Próbáljuk meg megváltoztatni a PI értékét
+    // Ez nem fog hibát okozni, de a változó nem fog megváltozni
+    PI = 3.14;
+
+    // Változók különböző adattípusokkal
+    var stringVariable = "Ez egy szöveg";
+    var numberVariable = 42;
+    var booleanVariable = true;
+
+    // Objektum létrehozása
+    var person = {
+        name: "John",
+        age: 30,
+        city: "New York"
+    };
+
+    // Értékek definiálása
+    var initializedVariable = "Ez egy inicializált változó";
+    var emptyVariable;
+
+    console.log(initializedVariable);
+    console.log(emptyVariable);
+
+    // Alap műveletek
+    var num1 = 10;
+    var num2 = 5;
+
+    var addition = num1 + num2;
+    var subtraction = num1 - num2;
+    var multiplication = num1 * num2;
+    var division = num1 / num2;
+    var modulus = num1 % num2;
+
+    console.log("Összeadás: " + addition);
+    console.log("Kivonás: " + subtraction);
+    console.log("Szorzás: " + multiplication);
+    console.log("Osztás: " + division);
+    console.log("Maradékos osztás: " + modulus);
+
+    // Böngésző interakció
+    alert("Üdvözöllek a weboldalon!");
+
+    var userName = prompt("Kérlek, add meg a neved:");
+    console.log("Hello, " + userName + "!");
+
+    // Elágazások
+    var age = prompt("Kérlek, add meg az életkorod:");
+
+    if (age >= 18) {
+        console.log("Hozzáférhetsz a tartalomhoz!");
+    } else {
+        console.log("Nem vagy eléggé idős a tartalomhoz.");
+    }
+
+    // Egyszerű összeadás művelet
+    var sum = num1 + num2;
+    console.log("Az összeg: " + sum);
+</script>
+
+</body>
+</html>
